@@ -1,7 +1,7 @@
 function newEntery() {
 
   /* Get response spreadsheet. */
-  var spreadsheet_url = "https://docs.google.com/spreadsheets/d/1JM8sXu0XZl7M05MdQsKTZCpaear8dXFLYRJ1JaVd1PY/edit?usp=sharing"; /* Update with your spreadsheet url*/
+  var spreadsheet_url = ""; /* Update with your spreadsheet url*/
   var spreadsheet = SpreadsheetApp.openByUrl(spreadsheet_url);
 
   /* Get last entered information.
@@ -66,7 +66,7 @@ function newEntery() {
     prj_doc.saveAndClose();
 
     /* How to receive the receipent. */
-    var receipent_mail = "mustafa.faisal@h-eng.helwan.edu.eg";
+    var receipent_mail = "";
     var mail_subject   = "Mail subject text";
     var mail_body      = "Mail body template";
 
